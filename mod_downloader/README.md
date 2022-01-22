@@ -23,8 +23,8 @@ Don't hesitate to share your exclusions by contributing to the code or contactin
 
 ### Setup
 
-If you got redirected here for the download you can download the script [here](https://raw.githubusercontent.com/Resxt/T4-Server-Scripts/main/mod_downloader/mod_downloader.ps1) by right-clicking anywhere and clicking on `Save page as`.\
-Make sure to put `.ps1` at the end of the file name and to choose `all or all files` in `Save as/save as type.p`
+If you got redirected here for the download you can download the script [here](https://raw.githubusercontent.com/Resxt/T4-Server-Scripts/main/mod_downloader/mod_downloader.ps1) by right-clicking anywhere and clicking on `Save page as`\
+Make sure to put `.ps1` at the end of the file name and to choose `All/All files` in `Save as/Save as type`
 Then once you run the script you will have to put the web server/Fast DL URL like prompted. You can get this by reading the instructions on the server you're coming from or asking there.
 
 If you already downloaded the script from somewhere else it probably comes with a `data` folder which has a configuration file that holds the IP, so you can just run the script.
