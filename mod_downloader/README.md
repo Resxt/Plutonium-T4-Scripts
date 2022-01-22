@@ -23,8 +23,13 @@ Don't hesitate to share your exclusions by contributing to the code or contactin
 
 ### Setup
 
-If you downloaded the script without a configuration (from here) then you can run the script and add the web server/FastDL server IP like prompted.\
-If you downloaded the script with a configuration you can start using the script.
+If you got redirected here for the download you can download the script [here](https://raw.githubusercontent.com/Resxt/T4-Server-Scripts/main/mod_downloader/mod_downloader.ps1) by right-clicking anywhere and clicking on `Save page as`.\
+Make sure to put `.ps1` at the end of the file name and to choose `all or all files` in `Save as/save as type.p`
+Then once you run the script you will have to put the web server/Fast DL URL like prompted. You can get this by reading the instructions on the server you're coming from or asking there.
+
+If you already downloaded the script from somewhere else it probably comes with a `data` folder which has a configuration file that holds the IP, so you can just run the script.
+
+It's recommended to put the script in a folder to keep things organized. For example in a folder called `server_scripts` in your World at War folder.
 
 ### Using the script
 
@@ -37,7 +42,7 @@ The script works with options so running the script without any option will just
 The available options can be cycled through by putting a space and a `-` after `.\mod_downloader.ps1` and pressing tab. You can only run one option at a time.
 
 * `-ShowModList` will give you the names of the mods available on the server
-* `-DownloadMods` allow you to download and install one or multiple mod(s) by giving mod name(s) obtained with `-ShowModList` separated by a comma without any space between each mod name. You can copy a mod name by highlighting it and pressing `CTRL+C` (be careful pressing `CTRL+C` twice will stop the script. You can paste it by right-clicking in the command prompt.
+* `-DownloadMods` allow you to download and install one or multiple mod(s) by giving mod name(s) obtained with `-ShowModList` separated by a comma without any space between each mod name. You can copy a mod name by highlighting it and pressing `CTRL+C` (be careful pressing `CTRL+C` twice will stop the script). You can paste it by right-clicking in the command prompt.
 * `-DownloadAllMods` downloads and installs all the mods available on the server. This will skip downloading the maps you already have installed.
 * `-EditConfig` deletes the current config file and lets you create your configuration again
 

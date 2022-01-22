@@ -142,6 +142,8 @@ function NormalizeUrl([string]$Url)
 
 # :: Script entry point ::
 
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 if ((Test-Path -Path $plutonium_t4_mods_folder_path) -eq $false) {
 [void](New-Item -ItemType Directory -Path $plutonium_t4_mods_folder_path)
 }
